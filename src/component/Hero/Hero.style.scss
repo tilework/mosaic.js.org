@@ -1,0 +1,44 @@
+.Hero {
+    margin-top: 100px;
+    padding: 24px 32px;
+
+    &-Wrapper {
+        height: 100%;
+        min-height: 600px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+    }
+
+    &-Content {
+        max-width: calc(60% - 40px);
+    }
+
+    &-Title {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 120%;
+        margin: 0 0 60px;
+    }
+
+    &-SubTitle {
+        font-size: 30px;
+        line-height: 130%;
+        margin: 0;
+    }
+
+    &-Image {
+        position: absolute;
+        width: 50%;
+        height: 90%;
+        top: 10%;
+        right: 0;
+        object-fit: contain;
+        object-position: right;
+    }
+
+    &-Nav .Button {
+        margin-right: 15px;
+    }
+}
