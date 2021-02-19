@@ -1,16 +1,19 @@
 import Button from '../Button';
 import ContentWrapper from '../ContentWrapper';
 import GitHubButton from '../GitHubButton';
+import Heading from '../Heading';
 import './Hero.style.scss';
 
 import heroImg from './hero.svg';
 
 const Hero = () => (
-    <header className="Hero">
+    <section className="Hero">
         <ContentWrapper className="Hero-Wrapper">
             <div className="Hero-Content">
                 <p className="Hero-SubTitle">Plug.js is...</p>
-                <h1 className="Hero-Title">A way to split a JavaScript monolyth into modules</h1>
+                <Heading type="h1" className="Hero-Title">
+                    A way to split a JavaScript monolyth into modules
+                </Heading>
                 <nav className="Hero-Nav">
                     <Button>Docs</Button>
                     <GitHubButton />
@@ -18,7 +21,7 @@ const Hero = () => (
             </div>
             <img src={ heroImg } alt="Shapes" className="Hero-Image" />
         </ContentWrapper>
-    </header>
+    </section>
 );
 
 export default Hero;

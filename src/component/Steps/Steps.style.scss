@@ -1,10 +1,9 @@
-.Hero {
-    margin-top: 100px;
-    padding: 24px 32px;
+.Steps {
+    background: #FF8577;
 
     &-Wrapper {
+        padding: 70px 0;
         height: 100%;
-        min-height: 600px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -15,28 +14,23 @@
         max-width: calc(60% - 40px);
     }
 
-    &-Title {
-        margin: 10px 0 60px;
-    }
-
-    &-SubTitle {
-        font-weight: 300;
-        font-size: 30px;
-        line-height: 130%;
+    &-Heading {
+        font-size: 70px;
         margin: 0;
     }
 
-    &-Image {
+    &-Sub {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    &-Graphics {
         position: absolute;
         width: 50%;
-        height: 90%;
-        top: 10%;
+        height: 100%;
+        top: 0;
         right: 0;
         object-fit: contain;
         object-position: right;
-    }
-
-    &-Nav .Button {
-        margin-right: 15px;
     }
 }

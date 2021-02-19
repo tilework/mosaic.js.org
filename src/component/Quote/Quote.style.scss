@@ -1,0 +1,57 @@
+.Quote {
+    margin-bottom: 100px;
+
+    &-Wrapper {
+        max-width: 1000px !important;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    &-Content {
+        margin-top: 10px;
+        flex-grow: 1;
+    }
+
+    &-Icon {
+        margin-right: 20px;
+    }
+
+    &-Text {
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 140%;
+        margin: 0;
+    }
+
+    &-Footer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        div {
+            margin-left: 10px;
+        }
+
+        strong {
+            display: block;
+            font-size: 130%;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        a {
+            font-weight: 300;
+            color: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                margin-right: 5px;
+                height: 15px;
+            }
+        }
+    }
+}

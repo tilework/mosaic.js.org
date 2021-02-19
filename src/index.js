@@ -3,13 +3,21 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import Header from './component/Header';
 import Hero from './component/Hero';
+import StanaloneModules from './component/StanaloneModules';
 
 import './index.css';
+import Quote from './component/Quote';
+import Steps from './component/Steps';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <Hero />
+    <main>
+      <Hero />
+      <StanaloneModules />
+      <Quote />
+      <Steps />
+    </main>
   </React.StrictMode>,
   document.getElementById('root')
 );

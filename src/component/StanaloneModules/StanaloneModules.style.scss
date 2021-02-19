@@ -1,0 +1,27 @@
+.StanaloneModules {
+    margin-bottom: 100px;
+    
+    &-Title {
+        text-align: center;
+    }
+
+    &-Grid {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    &-Item {
+        &Title {
+            margin: 25px 0 7px;
+        }
+
+        &Description {
+            font-weight: 300;
+            line-height: 140%;
+            font-size: 25px;
+            margin: 0;
+        }
+    }
+}
