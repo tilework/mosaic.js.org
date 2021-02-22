@@ -1,5 +1,18 @@
 .Playground {
+    @media (max-width: 800px) {
+        display: none;
+    }
+
     &-Heading {
         text-align: center;
+    }
+
+    iframe {
+        margin: auto;
+        width: 100%;
+        height: 500px;
+        border: 0;
+        border-radius: 4px;
+        overflow: hidden;
     }
 }
