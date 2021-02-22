@@ -1,5 +1,5 @@
 .Header {
-    padding: 24px 32px;
+    padding: 24px 0;
     border-bottom: 3px solid #000000;
     position: fixed;
     top: 0;
@@ -16,11 +16,17 @@
 
     &-Logo {
         font-weight: bold;
-        font-size: 30px;
+        font-size: var(--h4-size);
         line-height: 1;
         margin: 0;
         color: #000000;
         text-decoration: none;
+    }
+
+    &-Nav {
+        @media (max-width: 800px) {
+            display: none;
+        }
     }
 
     &-Nav .Button {

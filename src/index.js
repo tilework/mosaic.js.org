@@ -4,10 +4,12 @@ import reportWebVitals from './reportWebVitals';
 import Header from './component/Header';
 import Hero from './component/Hero';
 import StanaloneModules from './component/StanaloneModules';
-
-import './index.css';
 import Quote from './component/Quote';
 import Steps from './component/Steps';
+import Features from './component/Features';
+import Playground from './component/Playground';
+
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +19,8 @@ ReactDOM.render(
       <StanaloneModules />
       <Quote />
       <Steps />
+      <Features />
+      <Playground />
     </main>
   </React.StrictMode>,
   document.getElementById('root')

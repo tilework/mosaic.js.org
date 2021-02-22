@@ -3,16 +3,16 @@
 
     &_h1 {
         font-weight: 900;
-        font-size: 60px;
+        font-size: var(--h1-size);
     }
 
     &_h2 {
         font-weight: 900;
-        font-size: 50px;
+        font-size: var(--h2-size);
     }
 
     &_h4 {
-        font-size: 30px;
+        font-size: var(--h4-size);
         font-weight: bold;
     }
 }

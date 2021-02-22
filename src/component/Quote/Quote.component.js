@@ -18,7 +18,11 @@ const Quote = () => (
                     <img src={ jackImg } alt="" />
                     <div>
                         <strong>Jack Herrington</strong>
-                        <a href="#">
+                        <a
+                          rel="noreferrer"
+                          href="https://www.youtube.com/watch?v=87hg99a9cjE"
+                          target="_blank"
+                        >
                             <img src={ ytImg } alt="" />
                             Watch YouTube video
                         </a>

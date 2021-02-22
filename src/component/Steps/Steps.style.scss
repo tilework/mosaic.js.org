@@ -8,19 +8,28 @@
         justify-content: flex-start;
         align-items: center;
         position: relative;
+
+        @media (max-width: 800px) {
+            display: block;
+            padding: 40px 32px 20px;
+        }
     }
 
     &-Content {
         max-width: calc(60% - 40px);
+
+        @media (max-width: 800px) {
+            max-width: auto;
+        }
     }
 
     &-Heading {
-        font-size: 70px;
+        font-size: var(--h1-size);
         margin: 0;
     }
 
     &-Sub {
-        font-size: 35px;
+        font-size: var(--p-size);
         margin: 0;
     }
 
@@ -32,5 +41,12 @@
         right: 0;
         object-fit: contain;
         object-position: right;
+
+        @media (max-width: 800px) {
+            margin-top: 10px;
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
     }
 }

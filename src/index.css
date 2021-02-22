@@ -1,3 +1,23 @@
+:root {
+    --p-size: 25px;
+    --button-size: 18px;
+    --h1-size: 60px;
+    --h2-size: 50px;
+    --h3-size: 40px;
+    --h4-size: 30px;
+}
+
+@media (max-width: 800px) {
+    :root {
+        --p-size: 18px;
+        --button-size: 18px;
+        --h1-size: 40px;
+        --h2-size: 30px;
+        --h3-size: 28px;
+        --h4-size: 20px;
+    }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

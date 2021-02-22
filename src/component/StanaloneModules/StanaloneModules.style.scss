@@ -1,6 +1,6 @@
 .StanaloneModules {
     margin-bottom: 100px;
-    
+
     &-Title {
         text-align: center;
     }
@@ -10,17 +10,27 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
+
+        @media (max-width: 800px) {
+            margin-top: 40px;
+            gap: 20px;
+            grid-template-columns: 1fr;
+        }
     }
 
     &-Item {
         &Title {
             margin: 25px 0 7px;
+
+            @media (max-width: 800px) {
+                margin-top: 5px;
+            }
         }
 
         &Description {
             font-weight: 300;
             line-height: 140%;
-            font-size: 25px;
+            font-size: var(--p-size);
             margin: 0;
         }
     }
