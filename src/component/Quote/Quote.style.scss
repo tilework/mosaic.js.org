@@ -1,5 +1,9 @@
 .Quote {
-    margin: 100px 0 40px;
+    margin: 60px 0;
+
+    @media (max-width: 800px) {
+        margin: 100px 0 40px;
+    }
 
     &-Wrapper {
         max-width: 1000px !important;

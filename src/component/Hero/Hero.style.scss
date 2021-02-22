@@ -4,6 +4,8 @@
 
     @media (max-width: 800px) {
         margin-top: 80px;
+        padding: 30px 0 50px;
+        overflow: hidden;
     }
 
     &-Wrapper {
@@ -33,7 +35,7 @@
         margin: 10px 0 60px;
 
         @media (max-width: 800px) {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
     }
 
