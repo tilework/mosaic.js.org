@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import ContentWrapper from '../ContentWrapper';
 import Image from '../Image';
 import Heading from '../Heading';
