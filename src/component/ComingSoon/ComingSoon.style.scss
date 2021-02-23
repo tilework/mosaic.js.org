@@ -1,0 +1,115 @@
+.ComingSoon {
+    background: #2C2C2C;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        z-index: 0;
+        pointer-events: none;
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+
+        @media (max-width: 800px) {
+            width: 90%;
+        }
+    }
+
+    &::after {
+        bottom: 0;
+        right: 0;
+        background-image: url('./lines-2.svg');
+        background-position: right bottom;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        background-image: url('./lines.svg');
+        background-position: left top;
+    }
+
+    @media (max-width: 800px) {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    &-Wrapper {
+        z-index: 1;
+        max-width: 900px;
+    }
+
+    &-SubHeading,
+    &-Heading {
+        text-align: center;
+    }
+
+    &-SubHeading {
+        margin-bottom: 20px;
+    }
+
+    &-Section {
+        margin-top: 80px;
+
+        @media (max-width: 800px) {
+            margin-top: 40px;
+        }
+    }
+
+    &-Images {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 800px) {
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        img {
+            max-height: 70px;
+
+            &:not(:last-of-type) {
+                margin-right: 50px;
+
+                @media (max-width: 800px) {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    &-Columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+
+        @media (max-width: 800px) {
+            display: block;
+        }
+    }
+
+    p {
+        font-weight: 300;
+        line-height: 140%;
+        font-size: var(--p-size);
+    }
+
+    .List {
+        text-align: left;
+        margin: auto;
+        width: max-content;
+    }
+
+    .List > *::before {
+        filter: invert(1);
+    }
+}

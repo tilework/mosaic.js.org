@@ -1,0 +1,25 @@
+.SubscribeForm {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-Email {
+        outline: none;
+        background: #fff;
+        color: #000;
+        border-radius: 8px;
+        padding: 14px 24px 13px;
+        font-size: var(--button-size);
+        font-weight: 300;
+        line-height: 1;
+        border: 0;
+        position: relative;
+    }
+
+    &-Button {
+        margin-left: 20px;
+        background: #FFC700;
+        color: #000;
+    }
+}

@@ -10,6 +10,7 @@ import Features from './component/Features';
 import Playground from './component/Playground';
 
 import './index.css';
+import ComingSoon from './component/ComingSoon/ComingSoon.component';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Steps />
       <Features />
       <Playground />
+      <ComingSoon />
     </main>
   </React.StrictMode>,
   document.getElementById('root')
