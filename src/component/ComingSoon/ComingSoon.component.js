@@ -40,7 +40,7 @@ const ComingSoon = () => (
                 </div>
             </div>
             <div className="ComingSoon-Section">
-                <Heading type="h2" className="ComingSoon-SubHeading">Subscribe to stay tuned</Heading>
+                <Heading type="h2" className="ComingSoon-SubHeading">Stay tuned</Heading>
                 <SubscribeForm />
             </div>
         </ContentWrapper>

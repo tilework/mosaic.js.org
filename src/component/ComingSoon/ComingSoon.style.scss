@@ -5,6 +5,11 @@
     padding-bottom: 140px;
     position: relative;
 
+    @media (max-width: 800px) {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
     &::before,
     &::after {
         content: "";
@@ -35,11 +40,6 @@
         background-position: left top;
     }
 
-    @media (max-width: 800px) {
-        padding-top: 10px;
-        padding-bottom: 40px;
-    }
-
     &-Wrapper {
         z-index: 1;
         max-width: 900px;
@@ -51,25 +51,28 @@
     }
 
     &-SubHeading {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+
+        @media (max-width: 800px) {
+            margin-bottom: 20px;
+        }
+
     }
 
     &-Section {
-        margin-top: 80px;
+        margin-top: 60px;
 
         @media (max-width: 800px) {
-            margin-top: 40px;
+            margin-top: 30px;
         }
     }
 
     &-Images {
-        margin-top: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
 
         @media (max-width: 800px) {
-            margin-top: 30px;
             flex-direction: column;
         }
 
@@ -91,6 +94,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 40px;
+        align-items: flex-end;
 
         @media (max-width: 800px) {
             display: block;
@@ -101,12 +105,17 @@
         font-weight: 300;
         line-height: 140%;
         font-size: var(--p-size);
+        margin-top: 0;
     }
 
     .List {
         text-align: left;
         margin: auto;
         width: max-content;
+
+        @media (max-width: 800px) {
+            margin: 0;
+        }
     }
 
     .List > *::before {

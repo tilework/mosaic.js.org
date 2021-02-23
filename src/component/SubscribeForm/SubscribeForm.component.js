@@ -1,35 +1,19 @@
-import { createRef, PureComponent } from 'react';
+import { PureComponent } from 'react';
 import './SubscribeForm.style.scss';
 
 class SubscribeForm extends PureComponent {
-    state = {
-        email: ''
-    }
-
-    ref = createRef();
-
-    onSubmit = (event) => {
-        event.preventDefault();
-
-        fetch('https://scandipwa.us1.list-manage.com/subscribe/post?u=2211d38cf9c565258d51eb39a&amp;id=722d91f428', {
-            method: 'POST',
-            body: new FormData(this.ref)
-        })
-    }
-
     render() {
-        const { email } = this.state;
-
         return (
             <form
+                action="https://scandipwa.us1.list-manage.com/subscribe/post?u=2211d38cf9c565258d51eb39a&amp;id=722d91f428"
+                method="post"
+                target="_blank"
                 className="SubscribeForm"
-                ref={ (node) => { this.ref = node; } }
-                onSubmit={ this.onSubmit }
+                noValidate
             >
                 <div className="SubscribeForm-Field">
                     <input
                         type="email"
-                        value={ email }
                         name="EMAIL"
                         className="SubscribeForm-Email"
                         placeholder="Your email address"
