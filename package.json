@@ -1,6 +1,6 @@
 {
   "name": "mosaic-landing",
-  "homepage": "http://tilework.github.io/mosaic",
+  "homepage": "http://tilework.github.io/mosaic.js.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
