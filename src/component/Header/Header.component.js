@@ -10,7 +10,7 @@ const Header = () => (
             className="Header-Logo"
             href="/"
             >
-                Plug.js
+                Mosaic
             </a>
             <nav className="Header-Nav">
                 <Button>Docs</Button>

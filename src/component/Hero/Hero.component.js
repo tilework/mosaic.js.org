@@ -10,7 +10,7 @@ const Hero = () => (
     <section className="Hero">
         <ContentWrapper className="Hero-Wrapper">
             <div className="Hero-Content">
-                <p className="Hero-SubTitle">Plug.js is...</p>
+                <p className="Hero-SubTitle">Mosaic is...</p>
                 <Heading type="h1" className="Hero-Title">
                     A way to split a JavaScript monolyth into modules
                 </Heading>
