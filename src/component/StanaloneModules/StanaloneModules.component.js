@@ -20,7 +20,7 @@ const items = [
     {
         img: shadowImg,
         title: 'File Shadowing',
-        text: 'Focus on modifing functionality, not files.'
+        text: 'Focus on modifying functionality, not files.'
     }
 ]
 

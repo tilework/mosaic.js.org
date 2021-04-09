@@ -12,7 +12,7 @@ const Quote = () => (
             <img className="Quote-Icon" src={ quoteImg } alt="" />
             <div className="Quote-Content">
                 <p className="Quote-Text">
-                    Wow! Extension points into my apllication with code located in another package! How cool is that?
+                    Wow! Extension points into my application with code located in another package! How cool is that?
                 </p>
                 <footer className="Quote-Footer">
                     <img src={ jackImg } alt="" />

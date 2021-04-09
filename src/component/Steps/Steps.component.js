@@ -13,7 +13,7 @@ const Steps = () => (
                     Migrate to
                 </p>
                 <Heading type="h2" className="Steps-Heading">
-                    Micro-frontend Architecture
+                    Micro Frontend Architecture
                 </Heading>
                 <p className="Steps-Sub">
                     in 3 steps!
