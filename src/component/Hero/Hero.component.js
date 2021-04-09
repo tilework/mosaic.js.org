@@ -1,4 +1,4 @@
-import Button from '../Button';
+import DocsButton from '../DocsButton';
 import ContentWrapper from '../ContentWrapper';
 import GitHubButton from '../GitHubButton';
 import Heading from '../Heading';
@@ -15,7 +15,7 @@ const Hero = () => (
                     A way to split a JavaScript monolyth into modules
                 </Heading>
                 <nav className="Hero-Nav">
-                    <Button>Docs</Button>
+                    <DocsButton />
                     <GitHubButton />
                 </nav>
             </div>
