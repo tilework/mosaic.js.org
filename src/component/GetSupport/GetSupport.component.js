@@ -14,7 +14,7 @@ const GetSupport = () => {
     }, []);
 
     return (
-        <section className="GetSupport">
+        <section className="GetSupport" id="get-support">
             <ContentWrapper className="GetSupport-Wrapper">
                 <Heading type="h2" className="GetSupport-Heading">
                     Looking for commercial support?

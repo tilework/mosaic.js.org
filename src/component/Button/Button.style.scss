@@ -18,6 +18,10 @@
         transform: translateY(-2px);
     }
 
+    &_isPrimary {
+        background: #FF8577;
+    }
+
     &_hasIcon {
         padding-right: 54px;
     }
