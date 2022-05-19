@@ -1,0 +1,1 @@
+export { TechnologyStack as default } from './TechnologyStack.component';

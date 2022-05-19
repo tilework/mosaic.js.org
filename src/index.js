@@ -8,21 +8,25 @@ import Quote from './component/Quote';
 import Steps from './component/Steps';
 import Features from './component/Features';
 import Playground from './component/Playground';
+import UsedBy from './component/UsedBy';
+import TechnologyStack from './component/TechnologyStack';
+import GetSupport from './component/GetSupport';
 
 import './index.css';
-import ComingSoon from './component/ComingSoon/ComingSoon.component';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <main>
       <Hero />
+      <UsedBy />
       <StanaloneModules />
+      <TechnologyStack />
       <Quote />
       <Steps />
       <Features />
       <Playground />
-      <ComingSoon />
+      <GetSupport />
     </main>
   </React.StrictMode>,
   document.getElementById('root')

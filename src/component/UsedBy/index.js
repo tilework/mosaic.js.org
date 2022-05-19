@@ -1,0 +1,1 @@
+export { UsedBy as default } from './UsedBy.component';
